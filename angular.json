@@ -176,5 +176,9 @@
           "defaultConfiguration": "development"
         }
       }
-    }}
+    }
+  },
+  "cli": {
+    "analytics": false
+  }
 }

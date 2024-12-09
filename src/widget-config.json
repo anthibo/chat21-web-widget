@@ -1,8 +1,8 @@
 {
     "chatEngine": "mqtt",
     "uploadEngine": "native",
-    "pushEngine":"none",
-    "logLevel":"INFO",
+    "pushEngine": "none",
+    "logLevel": "INFO",
     "remoteTranslationsUrl": "http://localhost:3000/",
     "firebaseConfig": {
         "apiKey": "CHANGEIT",
@@ -16,7 +16,7 @@
     },
     "chat21Config": {
         "appId": "tilechat",
-        "MQTTendpoint": "ws://localhost:15675/ws",
+        "MQTTendpoint": "ws://127.0.0.1:15675/ws",
         "APIendpoint": "http://localhost:8004/api"
     },
     "apiUrl": "http://localhost:3000/",
@@ -25,5 +25,4 @@
     "authPersistence": "LOCAL",
     "enbedJs": true,
     "brandSrc": "${BRAND_SRC}"
-    
 }
